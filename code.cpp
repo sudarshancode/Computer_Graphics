@@ -1,5 +1,5 @@
 #include <graphics.h>
-
+#include <bits/stdc++.h>
 int main() {
     int gd = DETECT, gm;
     initgraph(&gd, &gm, NULL);
