@@ -33,7 +33,7 @@ void drawCircle(int xc, int yc, int r) {
 
 int main() {
     int gd = DETECT, gm;
-    initgraph(&gd, &gm, NULL);  // Initialize graphics mode
+    initgraph(&gd, &gm, "");  // Initialize graphics mode
 
     int xc, yc, r;
     cout << "Enter the center of the circle (x, y): ";
