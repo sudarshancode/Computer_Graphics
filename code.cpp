@@ -1,7 +1,7 @@
 #include <graphics.h>
-
+#include <bits/stdc++.h>
 int main() {
-    int x=0;
+    int x=0; 
     int gd = DETECT, gm;
     initgraph(&gd, &gm, NULL);
 
